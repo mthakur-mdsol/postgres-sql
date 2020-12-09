@@ -2,10 +2,10 @@
 
 =======================================================
 
-1.  kubectl create -f postgres-configmap.yaml 
-2.  kubectl create -f postgres-storage.yaml 
-3.  kubectl create -f postgres-deployment.yaml 
-4.  kubectl create -f postgres-service.yaml 
+1.  kubectl create -f https://raw.githubusercontent.com/Mukesh9092/postgres-sql/master/postgres-configmap.yaml 
+2.  kubectl create -f https://raw.githubusercontent.com/Mukesh9092/postgres-sql/master/postgres-storage.yaml 
+3.  kubectl create -f https://raw.githubusercontent.com/Mukesh9092/postgres-sql/master/postgres-deployment.yaml 
+4.  kubectl create -f https://raw.githubusercontent.com/Mukesh9092/postgres-sql/master/postgres-service.yaml 
 
 # kubectl delete service postgres
 # kubectl delete deployment postgres
